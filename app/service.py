@@ -25,7 +25,7 @@ def get_students():
 def get_student(student_id):
     try:
         student = db.get_student(student_id)
-        student["age"] = 200
+        # student["age"] = 200
         return student
     except db.DbNotFoundError as e:
         raise ServiceNotFoundError(str(e))
