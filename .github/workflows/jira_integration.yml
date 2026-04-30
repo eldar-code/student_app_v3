@@ -49,4 +49,5 @@ jobs:
           testFormat: 'junit'
           testPaths: 'report.xml' # file created on root of the remote runner
           projectKey: 'SAV'
+          testExecKey: 'SAV-2' # use if you want all tests one same Execution
 #          xrayBaseUrl: 'https://au.xray.cloud.getxray.app/'
