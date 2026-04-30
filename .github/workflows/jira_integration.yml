@@ -49,4 +49,4 @@ jobs:
           testFormat: 'junit'
           testPaths: 'report.xml' # file created on root of the remote runner
           projectKey: 'SAV'
-          xrayBaseUrl: 'https://au.xray.cloud.getxray.app/'
+#          xrayBaseUrl: 'https://au.xray.cloud.getxray.app/'
